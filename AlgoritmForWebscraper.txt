@@ -1,0 +1,14 @@
+CraigsListCity= ask user for input
+CraigsListCategory=ask user for input
+ifif city+categpry=valid, download specified listing contents
+grab a specified html element based on regular expression for each matched html element in matched html elements
+if no specified html parts then add matched html element to scraped items list 
+other wise
+for each html [art on specified html parts, grab specified html part from matched html element based ob regular expression
+
+if match found, add matched html element based on regulat expression 
+if match found then add matched html part to scraped items list
+
+otherwise show warning
+if scraped item list is not empty then display html elements/parts
+otherwise show no matches

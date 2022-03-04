@@ -1,0 +1,37 @@
+SudokuPuzzleFile= ask user for input
+
+read SudokuPuzzleFile
+
+if SudokuPuzzleFile=invalid show warning
+
+otherwise
+
+convert loaded SudokuPuzzleFile into matrix
+
+print Sudoku Puzzle matrix
+
+solve Sudoku Puzzle matrix
+
+initialize list of strategies
+
+simple mark-up strategy
+
+naked pair strategy
+
+capture current state of Sudoku Puzzle matrix
+
+capture next state of Sudoku Puzzle matrix afte running through first strategy in list
+
+while Sudoku Puzzle matrix is not solved and current state != next state
+
+current state=next state
+
+foreach strategy in strategies
+
+next state= state of Sudoku Puzzle matrix after running through strategy
+
+
+
+print Sudoku Puzzle matrix
+
+print if Sudoku Puzzle matrix was solved or not
